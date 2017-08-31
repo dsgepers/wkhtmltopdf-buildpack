@@ -35,6 +35,8 @@ chmod +x $WKHTMLTOPDF_BINARIES/*
 echo "-----> Moving binaries to the right place: ${BIN_PATH}/"
 mv $WKHTMLTOPDF_BINARIES/* /app/bin/
 
+ls /app/
+
 echo "-----> Cleaning up"
 rm -rf $WKHTMLTOPDF_PATH
 
