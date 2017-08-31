@@ -33,7 +33,7 @@ echo "-----> Setting permissions"
 chmod +x $WKHTMLTOPDF_BINARIES/*
 
 echo "-----> Moving binaries to the right place: ${BIN_PATH}/"
-mv $WKHTMLTOPDF_BINARIES/* /app/bin/
+mv $WKHTMLTOPDF_BINARIES/* /bin/
 
 ls /app/
 
